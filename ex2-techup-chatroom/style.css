@@ -1,1 +1,122 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(236, 234, 234);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.box-main {
+  height: 5%;
+  font-size: xx-large;
+  color: white;
+  background-color: gray;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-text-1 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  right: 15px;
+  top: 100px;
+}
+
+.box-1 {
+  width: 95%;
+  background-color: rgb(38, 253, 38);
+  padding: 5px 0px 5px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.circle-1 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(38, 253, 38);
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 12px;
+  top: -5px;
+  z-index: 0;
+}
+
+.circle-2 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(236, 234, 234);
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 13px;
+  top: -10px;
+  z-index: 0;
+}
+
+.box {
+  width: 95%;
+  background-color: rgb(214, 212, 212);
+  padding: 5px 0px 5px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.delete {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(185, 184, 184);
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 35px;
+}
+
+.box-3 {
+  width: 95%;
+  background-color: rgb(38, 253, 38);
+  padding: 5px 0px 5px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.box-text-2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  left: 15px;
+  top: 300px;
+}
+
+.box-4 {
+  width: 95%;
+  background-color: gray;
+  padding: 5px 0px 5px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.box-5 {
+  width: 95%;
+  background-color: gray;
+  padding: 5px 0px 5px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
